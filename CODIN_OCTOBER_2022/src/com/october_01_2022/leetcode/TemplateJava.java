@@ -4,13 +4,21 @@ import java.util.Scanner;
 
 public class TemplateJava {
 
-    public static void main(String[] args) {
-        Leetcode1480 lc1480 = new Leetcode1480();
-        int a[] = {1,2,3,4};
-        int res[] = lc1480.runningSum(a);
-        for(int i=0;i<res.length;i++)
+    public static void printArray(int a[])
+    {
+        int n = a.length;
+        for(int i=0;i<n;i++)
         {
-            System.out.print(res[i]+ " ");
+            System.out.print(a[i]+" ");
         }
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        Leetcode1528 lc1528 = new Leetcode1528();
+        int a[] = {0,1,2};
+        String s = "abc";
+        String res = lc1528.restoreString(s,a);
+//        printArray(res);
+        System.out.println(res);
     }
 }
