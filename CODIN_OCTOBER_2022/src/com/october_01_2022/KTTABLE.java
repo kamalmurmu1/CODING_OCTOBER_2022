@@ -1,8 +1,10 @@
 package com.october_01_2022;
 
+import java.io.*;
 import java.util.Scanner;
 
 public class KTTABLE {
+
     static Scanner sc = new Scanner(System.in);
     public static void solve()
     {
@@ -25,8 +27,7 @@ public class KTTABLE {
         System.out.println(res);
 
     }
-    public static void main(String[] args) throws java.lang.Exception{
-
+    public static void main(String[] args) throws IOException {
         int t = sc.nextInt();
         while(t-- > 0)
         {
