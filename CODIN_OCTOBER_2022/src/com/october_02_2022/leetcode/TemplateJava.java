@@ -31,6 +31,6 @@ public class TemplateJava {
 //        int res = lc2429.minimizeXor(79,74);
 
 //        printArray(res);
-//        System.out.println(res);
+//        System.out.println();
     }
 }
