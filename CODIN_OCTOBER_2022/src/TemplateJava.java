@@ -1,16 +1,22 @@
-import java.util.Scanner;
+package com.october_02_2022.leetcode;
 
 public class TemplateJava {
-    public static void solve()
+
+    public static void printArray(int a[])
     {
-//        System.out.println("Hello Sir");
+        int n = a.length;
+        for(int i=0;i<n;i++)
+        {
+            System.out.print(a[i]+" ");
+        }
+        System.out.println();
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        while(t-- > 0)
-        {
-            solve();
-        }
+        Leetcode2428 lc2428 = new Leetcode2428();
+        int a[][] = {{6,2,1,3},{4,2,1,5},{9,2,8,7},{4,1,2,9}};
+        int res =lc2428.maxSum(a);
+
+//        printArray(res);
+        System.out.println(res);
     }
 }

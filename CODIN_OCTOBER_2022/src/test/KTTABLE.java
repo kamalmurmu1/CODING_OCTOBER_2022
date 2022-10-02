@@ -1,4 +1,4 @@
-package com.october_01_2022;
+package test;
 
 import java.io.*;
 import java.util.Scanner;
